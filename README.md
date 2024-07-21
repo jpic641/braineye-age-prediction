@@ -7,7 +7,7 @@ To install the conda environment:
 conda env create -f environment.yml
 ```
 
-To create a jupyter kernel from your anaconda environment:
+To create a jupyter kernel from your anaconda environment (use the anaconda environment within Jupyter):
 ```bash
 python -m ipykernel install --user --name=braineye
 ```
